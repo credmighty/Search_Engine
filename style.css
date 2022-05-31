@@ -1,0 +1,85 @@
+body {
+    
+}
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.headercontainer a{
+    text-decoration: none;
+    padding: 10px;
+}
+.headercontainer div{
+    display: flex;
+    align-items: center;
+    margin: 7px;
+}
+.menu{
+    font-size: 30px;
+}
+
+
+.material-symbols-outlined {
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+}
+
+.profile{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    background: url('https://images.pexels.com/photos/129743/pexels-photo-129743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: 25%;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.google h1{
+    font-size: 70px;
+    text-align: center;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent ;
+}
+.heading{
+    background: linear-gradient(to right, blue 27%, red 27% 42%, yellow 42% 57%, blue 57% 72%, green 63% 78%, red 78% 100%);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.search input[type=search]{
+    padding: 2px 7px;
+    font-size: 1.4rem;
+    width: 80%;
+    border: 1px solid #aaa;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+
+p{
+    text-align: center;
+    margin-top: 15%;
+    font-weight: bold;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.language div{
+    margin: 7px;
+}
